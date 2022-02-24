@@ -1,0 +1,112 @@
+.med-trending{
+    width: 100%;
+    background: #fff;
+}
+
+.med-trend-div{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.med-trend-h{
+    width: 100%;
+}
+
+.med-trends{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding-top: 10px;
+}
+
+.trend-ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border:rgb(75 66 66 / 60%) solid 1.2px;
+    border-radius: 50%;
+}
+
+.trend-txt{
+    color: rgba(24, 23, 23);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.med-trend-b{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10px;
+}
+
+.med-trend-b-el{
+    width: 100%;
+    display: grid;
+    row-gap: 10px;
+}
+
+.trend-child{
+    width: 92%;
+    display: flex;
+    gap:6px;
+}
+
+.child-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.child-cont-h,
+.child-cont-publication,
+.child-cont-time{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-bottom: 3px;
+}
+
+.child-num span{
+    color: rgba(230, 230, 230, 1);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.child-cont-h{
+    padding-top: 6px;
+}
+
+.child-imgD{
+    width: 20px;
+    height: 20px;
+    padding-right: 6px;
+}
+
+.authImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.authName{
+    color: rgb(17 17 17);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.publicTitle{
+    color: rgb(17 17 17);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.child-cont-time span{
+    padding: 0px 3px;
+}
